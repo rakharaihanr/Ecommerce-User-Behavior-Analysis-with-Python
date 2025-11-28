@@ -1,13 +1,3 @@
-"""
-E-Commerce User Behavior Analysis
-Author: Rakha Raihan Raditya
-
-Deskripsi:
-Skrip ini melakukan Exploratory Data Analysis (EDA) end-to-end pada log aktivitas e-commerce.
-Mencakup pembersihan data, demografi user, tren channel, preferensi perangkat,
-heatmap aktivitas waktu, dan analisis konversi pencarian (search-to-cart).
-"""
-
 # Import Libraries & Setup
 import pandas as pd
 import numpy as np
@@ -60,12 +50,13 @@ plt.show()
 
 # OBJECTIVE 2: TREN PERTUMBUHAN (User Aktif Bulanan per Channel)
 
+# Pivot Table untuk mengubah data menjadi format Time-Series
 channel_trend = df.pivot_table(
     index='month_name',
     columns='channel',
     values='user_id',
     aggfunc='nunique' # Menghitung user unik
-) # Pivot Table untuk mengubah data menjadi format Time-Series
+)
 
 months_order = ['January', 'February', 'March', 'April', 'May', 'June', 
                 'July', 'August', 'September', 'October', 'November', 'December']
