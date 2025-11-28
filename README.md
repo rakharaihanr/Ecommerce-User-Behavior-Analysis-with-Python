@@ -1,0 +1,34 @@
+# E-Commerce User Behavior Analysis 📊
+
+## Data Source
+The dataset used in this analysis is an e-commerce event log containing user interactions such as views, searches, and purchases.
+
+- **Source:** RevoU Study Case
+- **Format:** CSV
+- **Key Columns:**
+  - `event_timestamp`: Date and time of the interaction.
+  - `event_type`: Type of action (view, cart, search, etc.).
+  - `user_id`: Unique identifier for users.
+  - `country`: User location.
+  - `device`: Device used (Android, iOS, Desktop).
+> **Note:** The data is loaded directly via URL in the python script.
+
+## Project Overview
+This project analyzes user behavior data from an E-commerce platform. The analysis focuses on identifying key markets, growth trends, device preferences, and feature effectiveness.
+
+## Key Insights
+- **Market Focus:** Indonesia is the dominant market with the highest user activity in Q2 2025.
+- **Channel Trend:** A significant surge in traffic occurred in April across all channels.
+- **Device Preference:** Users exhibit a strong "Mobile-First" behavior (Android & iOS).
+- **Optimization:** Peak activity occurs during commuter hours (7-8 AM & 5-6 PM).
+- **Critical Finding:** The "Search-to-Cart" conversion rate is **0.21%**, indicating a need for search algorithm optimization.
+
+## Tech Stack
+- **Python:** Data Cleaning & Analysis
+- **Pandas:** Data Manipulation & Aggregation
+- **Seaborn & Matplotlib:** Data Visualization
+
+## How to Run
+1. Clone this repository.
+2. Install dependencies: `pip install pandas numpy matplotlib seaborn`
+3. Run the script: `python ecommerce_analysis.py`
