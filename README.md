@@ -1,6 +1,7 @@
 # E-Commerce User Behavior Analysis 📊
 
 ## Data Source
+[Dataset](https://docs.google.com/spreadsheets/d/1dDczkp5SRp6IMNpKxiak_4q0S5qrOSILIyKzp-2I9ZE/export?format=csv&gid=1307725687)
 The dataset used in this analysis is an e-commerce event log containing user interactions such as views, searches, and purchases.
 
 - **Source:** RevoU Study Case
@@ -20,7 +21,7 @@ This project analyzes user behavior data from an E-commerce platform. The analys
 - **Market Focus:** Indonesia is the dominant market with the highest user activity in Q2 2025.
 - **Channel Trend:** A significant surge in traffic occurred in April across all channels.
 - **Device Preference:** Users exhibit a strong "Mobile-First" behavior (Android & iOS).
-- **Optimization:** Peak activity occurs during commuter hours (7-8 AM & 5-6 PM).
+- **Optimization:** Peak activity occurs during commuter hours (7-8 AM & 5-7 PM).
 - **Critical Finding:** The "Search-to-Cart" conversion rate is **0.21%**, indicating a need for search algorithm optimization.
 
 ## Tech Stack
